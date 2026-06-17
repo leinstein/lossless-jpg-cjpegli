@@ -1,0 +1,14 @@
+# build output
+dist/
+*.exe
+*.zip
+
+# local tools, do not commit third-party binaries
+tools/*.exe
+tools/*.dll
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
